@@ -1,0 +1,62 @@
+
+/*
+* Css 3
+* @category   N/A 
+* @auther     Saied lakhdar loai <saied.lakhdar01@gmail.com>
+* @copyright  DjelfaNetwork 2017
+* @license    http://www.opensource.org/licenses/mit-license.html  MIT License
+* @github     https://github.com/djelfanetwork
+*/
+
+nav ul {
+  float: left ;
+}
+.brand-logo{
+  float: left !important ;
+  right: 0.5rem;
+  padding: 0
+}
+nav ul:not(.browser-default)>li {
+float: right
+}
+/* logo of navbar site  */
+.brand-logo > img {
+    padding: 3px;
+    margin-right: 8px;
+    margin-top: 2px;
+}
+
+
+/* language dropdown flag images */
+.flagimg {
+    width: 22px;
+    margin: -5px;
+    margin-right: 7px;
+}
+
+/* Footer content  */
+
+.footer-content1 {
+  float: right !important;
+  direction: rtl !important ;
+}
+.footer-content2 {
+  float: left !important ;
+  direction: rtl !important ;
+}
+
+.footer-content2 ul:not(.browser-default) {
+    padding-right: 0 !important;
+  }
+
+/* Footer Copyright */
+.footer-copyright{
+  direction: rtl ;
+}
+.footer-copyright a{
+  float: left ;
+}
+/* Footer heart icon */
+.heart-footer{
+  color: red ;
+}
